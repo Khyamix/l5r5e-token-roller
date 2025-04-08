@@ -1,0 +1,48 @@
+/* Estilos otimizados para os diálogos */
+.l5r5e-dialog {
+    min-width: 450px;
+    padding: 15px;
+}
+
+.l5r5e-dialog .form-group {
+    margin: 10px 0;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.l5r5e-dialog select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.l5r5e-results {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.dice-tooltip {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.l5r5e-dialog {
+    min-width: 500px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ffd700;
+}
+
+.l5r5e-dialog select {
+    background: #111;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 5px;
+}
+
+.l5r5e-results {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}

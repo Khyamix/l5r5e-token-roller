@@ -1,0 +1,22 @@
+{
+    "id": "l5r5e-token-roller",
+    "name": "l5r5e-token-roller",
+    "title": "L5R 5E Token Roller",
+    "description": "Roller completo com seleção por token → habilidade → anel → resultados",
+    "version": "2.0.1",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11"
+    },
+    "authors": [{
+        "name": "Khyamix",
+        "url": "https://github.com/Khyamix"
+    }],
+    "esmodules": ["scripts/main.js"],
+    "styles": ["styles/module.css"],
+    "packs": [],
+    "url": "https://github.com/Khyamix/l5r5e-custom-roller",
+    "manifest": "https://raw.githubusercontent.com/Khyamix/l5r5e-custom-roller/main/module.json",
+    "download": "https://github.com/Khyamix/l5r5e-custom-roller/releases/download/v2.0.1/l5r5e-token-roller.zip",
+    "system": ["l5r5e"]
+}
