@@ -13,16 +13,16 @@ class L5R5ETokenRoller {
             this.addSheetRollButton(sheet, html);
         });
 
-        Hooks.on("getSceneControlButtons", (controls) => {
-    const token = canvas.tokens.controlled[0]; // Corrigido aqui
+       Hooks.on("getSceneControlButtons", (controls) => {
+    const token = canvas.tokens.controlled[0]; // ← Substituir aqui
     if (!token) return;
     
     const button = {
         name: "l5r5e-roller",
-        title: "L5R5E Roller",
+        title: "L5R 5E Roller",
         icon: "fas fa-dice",
         button: true,
-        onClick: () => L5R5E.openSkillSelector(token.actor)
+        onClick: () => this.openSkillSelector(token.actor) //
     };
     
     controls.find(c => c.name === "token").tools.push(button);
