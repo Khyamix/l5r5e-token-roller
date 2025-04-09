@@ -17,6 +17,6 @@
     "packs": [],
     "url": "https://github.com/Khyamix/l5r5e-custom-roller",
     "manifest": "https://raw.githubusercontent.com/Khyamix/l5r5e-custom-roller/main/module.json",
-    "download": "https://github.com/Khyamix/l5r5e-custom-roller/releases/download/v2.0.1/l5r5e-token-roller.zip",
+   "download": "https://github.com/Khyamix/l5r5e-custom-roller/releases/download/v2.0.0/l5r5e-token-roller.zip",
     "system": ["l5r5e"]
 }
